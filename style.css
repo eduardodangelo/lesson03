@@ -1,13 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto&display=swap");
+
+* {
+  /* padding: 0;
+  margin: 0; */
+  box-sizing: border-box;
+}
+
+html,
 body {
   background-color: #fefefe;
   text-align: center;
-  font-family: "Tahoma", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin: 0;
 }
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+
+/* Navigation */
+nav {
+  background: #222;
+  text-shadow: -0.06em 0 #f70907, 0.06em 0 cyan;
+  padding: 0.15em 0;
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin-right: 4em;
+  list-style-type: none;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 0.2em;
+}
+
+nav.nav-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
+
+/* H1 3D Text Effect */
+.text-effect {
+  font-family: "Open Sans", sans-serif;
+  color: #222;
+  font-size: 3.4em;
+  text-shadow: -0.06em 0 #f70907, 0.06em 0 cyan;
+  cursor: pointer;
+}
+
+.text-effect:hover {
+  color: cyan;
+}
+/* H1 3D End Text Effect */
 
 a {
   text-decoration: none;
 }
 
 a:hover {
-  color: brown;
+  color: cyan;
 }
