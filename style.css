@@ -22,7 +22,7 @@ h1 {
 
 /* Navigation */
 nav {
-  background: #222;
+  background-color: #222;
   text-shadow: -0.06em 0 #f70907, 0.06em 0 cyan;
   padding: 0.15em 0;
   width: 100%;
